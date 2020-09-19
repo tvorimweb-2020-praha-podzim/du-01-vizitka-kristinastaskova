@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+body {
+    background-color: powderblue;
+    margin: 0 auto; 
+    max-width: 50em;
+    font-family: sans-serif;
+}
+h1 {
+    color: royalblue;
+    font-family: 'Ranchers', sans-serif;
+}
+p {
+    font-style: italic;
+}
+img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+img:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+img {
+    width: 300px;
+    border-radius: 100%;
+    float: right;
+    margin-left: 10px;
+}
+a {
+    border: 1px solid royalblue;
+    border-radius: 290486px;
+    color: royalblue;
+    font-size: 0.6em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+  }
+  
+a:hover {
+    background:  royalblue;
+    color: white;
+  }
