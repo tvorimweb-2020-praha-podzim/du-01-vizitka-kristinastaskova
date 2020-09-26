@@ -1,36 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
 body {
-    background-color: powderblue;
+    background-color: rgb(179, 211, 248);
     margin: 0 auto; 
     max-width: 50em;
     font-family: sans-serif;
+    max-width: 80%;
 }
+body.bg-image {
+    background-image: url("images/69427007-320E-4B56-A16D-A716EA0DBE2D.png");
+    background-size: cover;
+}
+nav ul {
+    padding: 0px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+nav li {
+    display: inline;
+    margin-right: 2rem;
+}
+
 h1 {
-    color: royalblue;
+    color: yellow;
     font-family: 'Ranchers', sans-serif;
+    font-size: 4rem;
+    font-variant: small-caps;
+    -webkit-text-stroke: 1px royalblue;
+    letter-spacing: 0.1em;
+    float: left;
 }
 p {
     font-style: italic;
 }
-img {
+body.kontakt img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-}
-img:hover {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0);
-}
-img {
     width: 300px;
     border-radius: 100%;
     float: right;
-    margin-left: 10px;
+    border: 0,1rem;
+border-style: dotted;
 }
-a {
-    border: 1px solid royalblue;
+body.kontakt img:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);    
+}
+body.oMe img {
+    max-width: 120px;
+    max-height: 180px;
+    border-radius: 50%
+}
+#hasici a img {
+    margin: 1em;
+}
+#rodina a img {
+    margin: 1em;
+}
+#cestovani a img {
+    margin: 1em;
+}
+
+nav a {
+    border: 2px solid royalblue;
     border-radius: 290486px;
-    color: royalblue;
-    font-size: 0.6em;
+    color: yellow;
+    font-size: 0.8em;
     font-weight: bold;
     letter-spacing: 0.2em;
     padding: 1em 2em;
@@ -40,7 +74,36 @@ a {
     transition-property: color, background;
   }
   
-a:hover {
+nav a:hover {
     background:  royalblue;
-    color: white;
+    border: 1px solid yellow;
+    color: yellow;      
+  }
+
+  body.kontakt a {
+    border: 2px solid royalblue;
+    border-radius: 290486px;
+    color: yellow;
+    font-size: 0.8em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+  }
+  
+body.kontakt a:hover{
+    background:  royalblue;
+    border: 1px solid yellow;
+    color: yellow;      
+  }
+
+  section {
+      border-bottom: 0.2em dotted royalblue;
+      text-align: center;
+  }
+  section p {
+      background-color: rgb(168, 188, 248);
   }
